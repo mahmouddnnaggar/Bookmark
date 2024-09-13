@@ -91,6 +91,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 3.125rem;
 }
 .app .layer {
   position: absolute;
@@ -416,3 +417,21 @@ ul {
 .app button#deleteAllBtn:hover {
   background-color: #b34020;
 }
+/* ^ footer style */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    var(--first-gradient-color),
+    var(--second-gradient-color)
+  );
+  margin-inline: auto;
+  
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
