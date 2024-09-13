@@ -112,8 +112,13 @@ ul {
   border-radius: 0.625rem;
   padding: 2.5rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
-  max-width: 37.5rem;
+  width: 50%;
   display: none;
+}
+@media (max-width: 1000px) {
+  .app .hint-card {
+    width: 90% !important;
+  }
 }
 .app .hint-card > i {
   position: absolute;
